@@ -1,0 +1,10 @@
+#spring:
+#  cache:
+#    type: redis
+
+cache:
+  host: localhost
+  port: '6379'
+  default-ttl: '600000'
+  caches-ttl:
+    photo: '3600'
